@@ -9,8 +9,7 @@ def commit():
     array = []
     contador = 3
     for _ in range(contador):
-       a = 1
-       b = a + 2
+       array[0] = 23
     return array
 
 

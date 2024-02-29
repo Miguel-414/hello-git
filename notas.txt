@@ -19,3 +19,9 @@ este comando no añade el guardado al arbol de commits solo es accesible para ti
         encuentra en tu equipo 
       |--- git stash drop
          este comando borra lo que haya en stash  
+--> git diff login(nombre de la rama a comparar)
+si estoy en la rama main y lanzo este comando me compara lo que tengo con lo de esa rama         
+-- > git branch -d login
+este comando elimina la rama login
+oficialmente no existe 
+extraoficialmente tendremos referencias para poder movernos a ella
