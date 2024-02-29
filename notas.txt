@@ -1,0 +1,21 @@
+-- >git merge
+trae los datos de una rama a otra, no permite el flujo de la informacion si hay un choque
+es decir si una de las ramas toca la misma linea de codigo que la otra rama y estas al hacer 
+el merge son diferentes impide la ejecucion del merge
+-- > git branch 
+crea una nueva rama y a esta le asigna un nombre 
+git branch NOMBRE-RAMA
+-- > git rerlog
+muestra el historial de todos los commits realizados incluso los borrados con git reset --hard id
+-- > git stash 
+Este genera un guardado temporal local este no genera un comit 
+es como decir tengo un desarrollo a medias pero no voy a subir mis evidencias a medias 
+este comando no añade el guardado al arbol de commits solo es accesible para ti
+ |-->git stash list
+  te muestra la lista de tus stash
+   |--> git stash pop 
+     este te trae los stash que tengas guardados 
+        NOTA : los stash son visibles desde todos los lados donde te ubiques pues el stash se 
+        encuentra en tu equipo 
+      |--- git stash drop
+         este comando borra lo que haya en stash  
